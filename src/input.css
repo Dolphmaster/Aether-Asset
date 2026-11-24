@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary : #0f172a; /* Hero background, footer, venture pages, body text on light pages*/
+    --color-accent : #d4af37; /*Buttons, CTA highlights, borders, logo mark */
+    --color-editorial: #f8fafc; /*Journal background*/
+    --color-secondary: #1e293b; /* for secondary text, feature cards, thesis banners, container for dark sections*/
+}
