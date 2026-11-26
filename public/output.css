@@ -867,6 +867,9 @@
     }
   }
   @media (width >= 48rem) {
+    .md\:block {
+      display: block;
+    }
     .md\:grid {
       display: grid;
     }
