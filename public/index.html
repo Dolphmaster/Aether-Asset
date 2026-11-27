@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aether & Asset</title>
     <link rel="stylesheet" href="./output.css">
+    <script defer src="./index.js"></script>
 </head>
 <body>
     <header class="bg-primary border-b-accent border-b flex justify-between items-center py-3 px-6 relative">
@@ -248,8 +249,12 @@
 
       <div class="flex flex-col gap-2">
         <label for="building" class="text-sm text-accent">WHAT ARE YOU BUILDING?</label>
+        <div class="relative">
         <textarea id="building" rows="5" placeholder="Detail current traction, target scale, and philosophical alignment..."
-                  class="w-full rounded-sm border border-accent bg-primary text-sm text-editorial focus:border-cyan-300 focus:outline-none p-3 resize-none"></textarea>
+                  class="w-full rounded-sm border border-accent bg-primary text-sm text-editorial focus:border-cyan-300 focus:outline-none p-3 resize-none relative"></textarea>
+                  <button id="copyBtn" type="button" class="absolute top-0 right-0 p-2 text-sm bg-accent text-primary cursor-pointer rounded-sm">Copy</button>
+                  <p id="copyStatus"></p>
+                  </div>
       </div>
 
       <div class="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center sm:gap-4">
